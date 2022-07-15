@@ -1,6 +1,2 @@
-type Hello = (name: string) => void;
-
-const hello: Hello = (name) => {
-  console.log(`hello ${name}`)
-}
-
+type A = Array<number>;
+let a: A = [1, 2, 3, 4];
